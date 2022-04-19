@@ -15,7 +15,7 @@ print("_-_-_-_-_-_Temp files remover_-_-_-_-_-_")
 
 # At first we're defining a variable, which contains the path of the temp folder, written in a String
 # Als erstes definieren wir eine Variable, die den Pfad des temp Ordners, als String
-folder = "C:/Users/zack/AppData/Local/Temp"
+folder = "PATH"
 
 # Now we will use a for loop to list all the files which are in the folder, by calling the listdir method from os. As parameter we'll use the folder variable
 # Jetzt benutzen wir eine For Schleife, um alle Dateien die in dem Ordner sind aufzulisten, in dem wir die listdir Methode von os benutzen. Als Parameter benutzen wir die folder Variable
