@@ -24,7 +24,7 @@ try:
 except Exception:
     print("Error occured")
     
-# An easier way to do it
+# More efficient way to do it
 try:
     with open("writtenFile.txt", "r") as f:
         content = f.read()
