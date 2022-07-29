@@ -19,6 +19,17 @@ try:
 
         file = open("writtenFile.txt", "w")
         file.write("Fr")
+        # Close the file
+        file.close()
+except Exception:
+    print("Error occured")
+    
+# An easier way to do it
+try:
+    with open("writtenFile.txt", "r") as f:
+        content = f.read()
+        # Do stuff with the read text
+        
 except Exception:
     print("Error occured")
 
