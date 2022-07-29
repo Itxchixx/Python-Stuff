@@ -15,6 +15,16 @@ file = open("writtenFile.txt", "w")
 # Als Parameter der Funktion gibst du einfach nur den Text an, der in die Datei geschrieben werden soll.
 
 file.write("Written text in file")
+# Close the file
+file.close()
+
+# More efficient way to do it
+try:
+  
+  with open("writtenFile.txt", "w") as f:
+    f.write("Written text in file")
+except Exception:
+  print("Error while writing to the file")
 
 # Execute to write file
 # Ausführen um die Datei zu schreiben
